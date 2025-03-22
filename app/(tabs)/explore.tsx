@@ -1,14 +1,15 @@
 import { StyleSheet, Image } from 'react-native';
-import { ThemedText } from '@/ThemedText';
-import { ThemedView } from '@/ThemedView';
-import ParallaxScrollView from '@/ParallaxScrollView';
-import { Collapsible } from '@/Collapsible';
-import { ExternalLink } from '@/ExternalLink';
+import { ThemedText } from '../../components/ThemedText';
+import { ThemedView } from '../../components/ThemedView';
+import ParallaxScrollView from '../../components/ParallaxScrollView';
+import { Collapsible } from '../../components/Collapsible';
+import { ExternalLink } from '../../components/ExternalLink';
+
 
 export default function ExploreScreen() {
   return (
     <ParallaxScrollView
-      headerImage={<Image source={require('@/assets/headerImage.png')} />}
+    headerImage={<Image source={require('../../assets/images/icon.png')} />}  
       headerBackgroundColor={{ light: '#f39c12', dark: '#7d5109' }}
     >
       <ThemedView style={styles.container}>

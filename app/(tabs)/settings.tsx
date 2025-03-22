@@ -253,6 +253,6 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
   },
   logoutButton: {
-    marginBottom: 32,
+    marginBottom: 120,
   },
 });
